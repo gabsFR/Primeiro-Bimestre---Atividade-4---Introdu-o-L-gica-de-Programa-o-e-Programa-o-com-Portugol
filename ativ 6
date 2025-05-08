@@ -1,0 +1,15 @@
+rograma {
+  inteiro comprimento = 105
+  inteiro largura = 68
+  inteiro areaverde
+  inteiro verdedobro
+  inteiro verdecm
+  funcao inicio() {
+    
+    areaverde = comprimento * largura
+    verdedobro = areaverde * 2
+    verdecm = verdedobro * 100
+
+    escreva("1.", areaverde,"\n","2.", verdedobro,"\n","3.", verdecm)
+  }
+}
