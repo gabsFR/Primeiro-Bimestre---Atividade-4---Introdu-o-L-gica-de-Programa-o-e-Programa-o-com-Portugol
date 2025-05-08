@@ -1,1 +1,13 @@
-n comecei ainda
+programa {
+  inteiro hp1 = 26.90
+  inteiro hp2 = 34.10
+  inteiro hp3 = 29.90
+  inteiro hp4 = 26.90
+  inteiro hp5 = 50.00
+  inteiro hp6 = 26.90
+  inteiro total = hp1 + hp2 + hp3 + hp4 + hp5 + hp6
+  
+  funcao inicio() {
+    escreva("o total de todos os livros do harry potter é: ", total," reais")
+  }
+}
