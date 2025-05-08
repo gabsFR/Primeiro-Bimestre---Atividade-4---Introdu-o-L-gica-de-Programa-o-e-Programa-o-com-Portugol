@@ -1,0 +1,10 @@
+programa {
+  inteiro metros
+  inteiro cm
+  funcao inicio() {
+    escreva("me fale um numero e converterei de metros para centimetros ")
+    leia(metros)
+    cm = metros * 100
+    escreva("esse valor em centimetros é: ", cm)
+  }
+}
