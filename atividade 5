@@ -1,0 +1,10 @@
+programa {
+ inteiro raio
+ inteiro area
+  funcao inicio() {
+    escreva("me fale o raio de um circulo e eu calcularei a area ")
+    leia(raio)
+    area = (raio * raio) * 3.14
+    escreva("a area do circulo é: ", area)
+  }
+}
