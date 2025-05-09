@@ -1,0 +1,16 @@
+programa {
+  inteiro dolar
+  inteiro reais
+  inteiro hp5 = 50
+  inteiro ps5
+  funcao inicio() {
+    
+    escreva("me fale um valor em dolar e real e eu falarei quanto dinheiro falta para comprar um ps5 ")
+    leia(dolar)
+    leia(reais)
+    reais * 5
+    escreva ("em dolar falta: ", 1300 - dolar,"\n","em real falta: ", 6500 - reais,"\n", "e pode-se comprar aproximadamente 130 livros do Harry Potter e a Ordem da Fênix")
+
+
+  }
+}
