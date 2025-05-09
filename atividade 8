@@ -1,0 +1,16 @@
+programa {
+  inteiro fish
+  inteiro peso
+  inteiro multa
+  inteiro sobras
+  
+  funcao inicio() {
+    escreva ("manda os peixe aí ")
+    leia(fish)
+    leia(peso)
+    multa = 4.50
+    sobras = peso - 50
+    se(peso >= 50)entao(multa * sobras)
+    escreva("peixes: ",fish,"\n", "peso: ", peso,"\n", "excesso: ", sobras, "\n", "multa: ", multa)
+  }
+}
