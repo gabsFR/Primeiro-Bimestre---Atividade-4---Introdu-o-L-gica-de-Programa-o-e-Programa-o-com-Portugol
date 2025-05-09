@@ -1,7 +1,7 @@
 programa {
   inteiro fish
   inteiro peso
-  inteiro multa
+  real multa, valor_multa
   inteiro sobras
   
   funcao inicio() {
@@ -10,7 +10,11 @@ programa {
     leia(peso)
     multa = 4.50
     sobras = peso - 50
-    se(peso >= 50)entao(multa * sobras)
-    escreva("peixes: ",fish,"\n", "peso: ", peso,"\n", "excesso: ", sobras, "\n", "multa: ", multa)
+    
+    se(peso >= 50){
+    	valor_multa = multa * sobras
+    }
+    
+    escreva("peixes: ",fish,"\n", "peso: ", peso,"\n", "excesso: ", sobras, "\n", "multa: ", valor_multa)
   }
 }
